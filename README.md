@@ -87,12 +87,9 @@ All selection decisions are made on the validation split; the test split and ext
 If you use this code, please cite the article (details will be updated on publication):
 
 ```bibtex
-@article{icu_composition_2026,
+@article{icu_composition_2027,
   title   = {Composition beats construction at 24 hours: Fusing irregularly sampled records and radiology text for six-outcome ICU prediction from MIMIC-IV to 208 hospitals},
   author  = {author = {Abdullah and Oropeza Rodríguez, José Luis and Sidorov, Grigori and Torres Ruiz, Miguel Jesús},
-  journal = {Information Fusion},
-  year    = {2026},
-  note    = {Under review},
   url     = {https://github.com/abdullah2025-source/icu-composition-24h}
 }
 ```
