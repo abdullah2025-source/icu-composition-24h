@@ -89,7 +89,7 @@ If you use this code, please cite the article (details will be updated on public
 ```bibtex
 @article{icu_composition_2026,
   title   = {Composition beats construction at 24 hours: Fusing irregularly sampled records and radiology text for six-outcome ICU prediction from MIMIC-IV to 208 hospitals},
-  author  = {[Author 1] and [Author 2] and [Author 3]},
+  author  = {author = {Abdullah and Oropeza Rodríguez, José Luis and Sidorov, Grigori and Torres Ruiz, Miguel Jesús},
   journal = {Information Fusion},
   year    = {2026},
   note    = {Under review},
@@ -103,4 +103,4 @@ Code is released under the MIT License (see `LICENSE`). The clinical databases r
 
 ## Contact
 
-[Author name] — Centro de Investigación en Computación (CIC), Instituto Politécnico Nacional, Mexico City · [e-mail]
+[Abdullah] — Centro de Investigación en Computación (CIC), Instituto Politécnico Nacional, Mexico City · [abdullah2025@cic.ipn.mx]
