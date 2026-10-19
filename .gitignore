@@ -35,3 +35,6 @@ __pycache__/
 .ipynb_checkpoints/
 *.log
 .DS_Store
+.code_list.txt
+.cfg_list.txt
+collect_code_from_server.sh
