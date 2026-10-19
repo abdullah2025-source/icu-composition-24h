@@ -1,0 +1,37 @@
+# ---- NEVER COMMIT PATIENT-LEVEL DATA (PhysioNet DUA) ----
+data/
+outputs/
+external_validation_data/
+mimic-iii-clinical-database-1.4/
+*.csv.gz
+*.parquet
+*.feather
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.db
+*.sqlite
+*.duckdb
+*.h5
+*.hdf5
+*.zip
+*.tar*
+*predictions*.csv
+*_preds*.csv
+# allow aggregate result tables explicitly
+!results/*.csv
+# ---- environments, caches, logs ----
+mamba_env/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.log
+.DS_Store

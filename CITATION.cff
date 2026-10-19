@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "Composition beats construction at 24 hours: Fusing irregularly sampled records and radiology text for six-outcome ICU prediction from MIMIC-IV to 208 hospitals"
+authors:
+  - family-names: "[Surname 1]"
+    given-names: "[Given name 1]"
+    affiliation: "Centro de Investigación en Computación, Instituto Politécnico Nacional"
+license: MIT
+repository-code: "https://github.com/abdullah2025-source/icu-composition-24h"
+date-released: 2026-10-19
+keywords: [multimodal fusion, ensemble learning, intensive care unit, MIMIC-IV, eICU-CRD, external validation, explainable AI]

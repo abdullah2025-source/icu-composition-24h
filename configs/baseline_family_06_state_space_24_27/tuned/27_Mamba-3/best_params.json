@@ -1,0 +1,16 @@
+{
+  "d_model": 296,
+  "d_state": 16,
+  "d_conv": 4,
+  "expand": 4,
+  "layers": 2,
+  "dropout": 0.22300747304543522,
+  "lr": 0.0007528447426719884,
+  "pure_pytorch": true,
+  "batch_size": 256,
+  "max_epochs": 50,
+  "patience": 9,
+  "weight_decay": 0.0008095894573046819,
+  "grad_clip": 0.6670054410176622,
+  "scheduler": "cosine"
+}

@@ -1,0 +1,12 @@
+{
+  "hidden": 254,
+  "stages": 3,
+  "dropout": 0.2,
+  "lr": 0.001,
+  "batch_size": 512,
+  "max_epochs": 50,
+  "patience": 9,
+  "weight_decay": 0.0005876779448247912,
+  "grad_clip": 1.0505530084190464,
+  "scheduler": "onecycle"
+}

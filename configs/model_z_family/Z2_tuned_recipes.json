@@ -1,0 +1,47 @@
+{
+  "mortality_24h": {
+    "task": "mortality_24h",
+    "weights": {
+      "A3": 0.0,
+      "Z1": 1.0,
+      "A2": 0.0
+    },
+    "selection": "full_validation_grid_step0.05"
+  },
+  "ventilation_onset_24h": {
+    "task": "ventilation_onset_24h",
+    "weights": {
+      "A3": 0.45,
+      "Z1": 0.15000000000000002,
+      "A2": 0.4
+    },
+    "selection": "full_validation_grid_step0.05"
+  },
+  "vasopressor_onset_24h": {
+    "task": "vasopressor_onset_24h",
+    "weights": {
+      "A3": 0.35000000000000003,
+      "Z1": 0.65,
+      "A2": 0.0
+    },
+    "selection": "full_validation_grid_step0.05"
+  },
+  "readmission_30d_24h": {
+    "task": "readmission_30d_24h",
+    "weights": {
+      "A3": 0.6000000000000001,
+      "Z1": 0.0,
+      "A2": 0.3999999999999999
+    },
+    "selection": "full_validation_grid_step0.05"
+  },
+  "los_hours_24h": {
+    "task": "los_hours_24h",
+    "weights": {
+      "A3": 0.0,
+      "Z1": 0.9500000000000001,
+      "A2": 0.04999999999999993
+    },
+    "selection": "full_validation_grid_step0.05"
+  }
+}

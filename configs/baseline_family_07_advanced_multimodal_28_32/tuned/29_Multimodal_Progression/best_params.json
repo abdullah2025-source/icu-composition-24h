@@ -1,0 +1,13 @@
+{
+  "d_model": 256,
+  "progression_hidden": 224,
+  "layers": 1,
+  "dropout": 0.22156986544237844,
+  "lr": 0.0006770867924673696,
+  "batch_size": 256,
+  "max_epochs": 50,
+  "patience": 8,
+  "weight_decay": 2.8794422312657842e-05,
+  "grad_clip": 0.8360170585055089,
+  "scheduler": "cosine"
+}

@@ -1,0 +1,13 @@
+{
+  "channels": 36,
+  "kernel_size": 5,
+  "levels": 5,
+  "dropout": 0.1548562853072461,
+  "lr": 0.0006244728964107619,
+  "batch_size": 256,
+  "max_epochs": 50,
+  "patience": 6,
+  "weight_decay": 2.4527456674576895e-05,
+  "grad_clip": 1.5663334340419746,
+  "scheduler": "onecycle"
+}

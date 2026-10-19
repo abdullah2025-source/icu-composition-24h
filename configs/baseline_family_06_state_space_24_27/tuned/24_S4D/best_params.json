@@ -1,0 +1,13 @@
+{
+  "d_model": 192,
+  "state_size": 16,
+  "layers": 4,
+  "dropout": 0.08463046885858788,
+  "lr": 0.001965481051201242,
+  "batch_size": 256,
+  "max_epochs": 50,
+  "patience": 9,
+  "weight_decay": 0.0005232286786927548,
+  "grad_clip": 0.5677654749141102,
+  "scheduler": "cosine"
+}

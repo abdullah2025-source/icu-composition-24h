@@ -1,0 +1,15 @@
+{
+  "d_model": 288,
+  "d_state": 16,
+  "d_conv": 5,
+  "expand": 4,
+  "layers": 4,
+  "dropout": 0.06581022704062742,
+  "lr": 0.001921748065326765,
+  "batch_size": 512,
+  "max_epochs": 50,
+  "patience": 8,
+  "weight_decay": 4.893356642731887e-05,
+  "grad_clip": 0.9150992037865344,
+  "scheduler": "onecycle"
+}

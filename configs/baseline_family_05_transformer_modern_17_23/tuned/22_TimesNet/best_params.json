@@ -1,0 +1,13 @@
+{
+  "d_model": 94,
+  "d_ff": 128,
+  "top_k": 5,
+  "dropout": 0.1,
+  "lr": 0.001,
+  "batch_size": 256,
+  "max_epochs": 50,
+  "patience": 8,
+  "weight_decay": 0.0007875717529119704,
+  "grad_clip": 1.0840073506746664,
+  "scheduler": "cosine"
+}

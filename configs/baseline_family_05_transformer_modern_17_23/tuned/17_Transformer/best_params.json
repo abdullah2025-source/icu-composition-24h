@@ -1,0 +1,13 @@
+{
+  "d_model": 376,
+  "n_heads": 8,
+  "layers": 3,
+  "dropout": 0.17746201041010978,
+  "lr": 0.0004043812356515263,
+  "batch_size": 1024,
+  "max_epochs": 50,
+  "patience": 5,
+  "weight_decay": 0.000173842374300968,
+  "grad_clip": 1.1958703650408686,
+  "scheduler": "onecycle"
+}

@@ -1,0 +1,12 @@
+{
+  "hidden": 215,
+  "layers": 1,
+  "dropout": 0.34777758876202347,
+  "lr": 0.0017119302525228535,
+  "batch_size": 1024,
+  "patience": 5,
+  "weight_decay": 8.214115158576863e-05,
+  "grad_clip": 1.1072145298317349,
+  "scheduler": "onecycle",
+  "max_epochs": 50
+}

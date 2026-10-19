@@ -1,0 +1,109 @@
+{
+  "mortality_24h": {
+    "members": [
+      "00",
+      "28",
+      "12",
+      "24",
+      "05",
+      "32"
+    ],
+    "weights": {
+      "00": 0.22463999999999995,
+      "28": 0.14975999999999998,
+      "12": 0.20159999999999997,
+      "24": 0.14400000000000002,
+      "05": 0.18,
+      "32": 0.09999999999999998
+    },
+    "validation_score": 0.5945647646178492,
+    "blend": "weighted_rank_mean",
+    "selection": "grouped_CV_K5_6_7_8_alpha0.05_min_gain0.0005",
+    "selected_k": 6,
+    "cv_score": 0.5873542135915423,
+    "task": "mortality_24h"
+  },
+  "ventilation_onset_24h": {
+    "members": [
+      "00",
+      "24",
+      "31",
+      "32",
+      "09"
+    ],
+    "weights": {
+      "00": 0.36337499999999995,
+      "24": 0.24225,
+      "31": 0.201875,
+      "32": 0.14250000000000002,
+      "09": 0.05
+    },
+    "validation_score": 0.41613056463502807,
+    "blend": "weighted_rank_mean",
+    "selection": "grouped_CV_K5_6_7_8_alpha0.05_min_gain0.0005",
+    "selected_k": 5,
+    "cv_score": 0.4029547359985585,
+    "task": "ventilation_onset_24h"
+  },
+  "vasopressor_onset_24h": {
+    "members": [
+      "28",
+      "29",
+      "11",
+      "32",
+      "23"
+    ],
+    "weights": {
+      "28": 0.3808,
+      "29": 0.0952,
+      "11": 0.11899999999999998,
+      "32": 0.255,
+      "23": 0.15000000000000002
+    },
+    "validation_score": 0.28725075789488125,
+    "blend": "weighted_rank_mean",
+    "selection": "grouped_CV_K5_6_7_8_alpha0.05_min_gain0.0005",
+    "selected_k": 6,
+    "cv_score": 0.2632050620887391,
+    "task": "vasopressor_onset_24h"
+  },
+  "readmission_30d_24h": {
+    "members": [
+      "05",
+      "24",
+      "32",
+      "04"
+    ],
+    "weights": {
+      "05": 0.306,
+      "24": 0.4590000000000001,
+      "32": 0.13500000000000006,
+      "04": 0.10000000000000002
+    },
+    "validation_score": 0.25492909220665194,
+    "blend": "weighted_rank_mean",
+    "selection": "grouped_CV_K5_6_7_8_alpha0.05_min_gain0.0005",
+    "selected_k": 6,
+    "cv_score": 0.24347296118872713,
+    "task": "readmission_30d_24h"
+  },
+  "los_hours_24h": {
+    "task": "los_hours_24h",
+    "members": [
+      "24",
+      "31",
+      "09",
+      "32",
+      "12"
+    ],
+    "weights": {
+      "24": 0.2,
+      "31": 0.2,
+      "09": 0.2,
+      "32": 0.2,
+      "12": 0.2
+    },
+    "validation_score": -53.53698395565432,
+    "blend": "raw_mean"
+  }
+}

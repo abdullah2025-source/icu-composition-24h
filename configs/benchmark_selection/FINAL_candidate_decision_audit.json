@@ -1,0 +1,58 @@
+{
+  "benchmark_coverage": {
+    "expected_model_count": 33,
+    "found_model_count": 33,
+    "missing_models": [],
+    "unexpected_models": [],
+    "pass": true
+  },
+  "candidate_ids": [
+    "32",
+    "31",
+    "00",
+    "05",
+    "13",
+    "24",
+    "29"
+  ],
+  "model_29_gpu_bf16_provenance_pass": true,
+  "candidate_test_selection_leakage": {
+    "status": "PASS",
+    "fail_models": [],
+    "incomplete_models": [],
+    "values": {
+      "32": false,
+      "31": false,
+      "00": false,
+      "05": false,
+      "13": false,
+      "24": false,
+      "29": false
+    }
+  },
+  "compatible_prediction_models": [
+    "00",
+    "05",
+    "13",
+    "24",
+    "29",
+    "31",
+    "32"
+  ],
+  "bootstrap_definition": {
+    "reps": 5000,
+    "seed": 20260923,
+    "pairing": "exact stay_id",
+    "bootstrap_unit": "subject_id"
+  },
+  "completed_bootstrap_task_results": 24,
+  "completed_los_bootstrap_comparisons": 4,
+  "los_policy": "Only run paired LOS bootstrap when prediction/target units are explicitly verified as raw hours, either by artifact unit metadata or the independent saved LOS unit audit.",
+  "files": {
+    "candidate_summary": "outputs/benchmark_selection/FINAL_candidate_summary_audit.csv",
+    "candidate_task_metrics": "outputs/benchmark_selection/FINAL_candidate_deep_dive_task_metrics.csv",
+    "prediction_schema_audit": "outputs/benchmark_selection/FINAL_candidate_prediction_schema_audit.csv",
+    "paired_bootstrap": "outputs/benchmark_selection/FINAL_candidate_paired_bootstrap_5000.csv",
+    "los_bootstrap": "outputs/benchmark_selection/FINAL_candidate_los_paired_bootstrap_5000.csv"
+  }
+}

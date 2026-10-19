@@ -1,0 +1,15 @@
+{
+  "dataset": "eICU-CRD",
+  "model": "Z2_tuned",
+  "retrained": false,
+  "members_rescored": false,
+  "ensemble_arithmetic": "model_z_family.apply_recipe + z2_apply_from_components (locked MIMIC-IV logic)",
+  "z1_blend": "weighted mean on the probability scale",
+  "z2_blend": "weighted mean of re-ranked parent scores",
+  "neural_member_files": "logits, sigmoid applied",
+  "tree_member_files": "probabilities",
+  "thresholds": "locked on MIMIC-IV validation (max F1)",
+  "bootstrap_reps": 1000,
+  "hospital_bootstrap_reps": 1000,
+  "readmission": "not evaluated on eICU (no valid label)"
+}

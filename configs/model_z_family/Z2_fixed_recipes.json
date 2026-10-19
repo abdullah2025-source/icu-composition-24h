@@ -1,0 +1,47 @@
+{
+  "mortality_24h": {
+    "task": "mortality_24h",
+    "weights": {
+      "A3": 0.4,
+      "Z1": 0.4,
+      "A2": 0.2
+    },
+    "selection": "fixed_predeclared"
+  },
+  "ventilation_onset_24h": {
+    "task": "ventilation_onset_24h",
+    "weights": {
+      "A3": 0.4,
+      "Z1": 0.4,
+      "A2": 0.2
+    },
+    "selection": "fixed_predeclared"
+  },
+  "vasopressor_onset_24h": {
+    "task": "vasopressor_onset_24h",
+    "weights": {
+      "A3": 0.4,
+      "Z1": 0.4,
+      "A2": 0.2
+    },
+    "selection": "fixed_predeclared"
+  },
+  "readmission_30d_24h": {
+    "task": "readmission_30d_24h",
+    "weights": {
+      "A3": 0.4,
+      "Z1": 0.4,
+      "A2": 0.2
+    },
+    "selection": "fixed_predeclared"
+  },
+  "los_hours_24h": {
+    "task": "los_hours_24h",
+    "weights": {
+      "A3": 0.4,
+      "Z1": 0.4,
+      "A2": 0.2
+    },
+    "selection": "fixed_predeclared"
+  }
+}

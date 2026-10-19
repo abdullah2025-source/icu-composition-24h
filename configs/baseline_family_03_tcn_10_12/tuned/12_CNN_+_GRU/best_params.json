@@ -1,0 +1,12 @@
+{
+  "cnn_channels": 254,
+  "gru_hidden": 309,
+  "dropout": 0.24961808498881968,
+  "lr": 0.000934881672485764,
+  "batch_size": 256,
+  "max_epochs": 50,
+  "patience": 9,
+  "weight_decay": 2.4636685013730377e-05,
+  "grad_clip": 1.0995531709649713,
+  "scheduler": "onecycle"
+}

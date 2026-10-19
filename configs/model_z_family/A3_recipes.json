@@ -1,0 +1,97 @@
+{
+  "mortality_24h": {
+    "task": "mortality_24h",
+    "members": [
+      "00",
+      "05",
+      "12",
+      "20",
+      "24"
+    ],
+    "weights": {
+      "00": 0.2,
+      "05": 0.2,
+      "12": 0.2,
+      "20": 0.2,
+      "24": 0.2
+    },
+    "validation_score": 0.5918914277012461,
+    "blend": "rank_mean"
+  },
+  "ventilation_onset_24h": {
+    "task": "ventilation_onset_24h",
+    "members": [
+      "00",
+      "32",
+      "24",
+      "31",
+      "09"
+    ],
+    "weights": {
+      "00": 0.2,
+      "32": 0.2,
+      "24": 0.2,
+      "31": 0.2,
+      "09": 0.2
+    },
+    "validation_score": 0.4108833377641887,
+    "blend": "rank_mean"
+  },
+  "vasopressor_onset_24h": {
+    "task": "vasopressor_onset_24h",
+    "members": [
+      "28",
+      "32",
+      "20",
+      "11",
+      "29"
+    ],
+    "weights": {
+      "28": 0.2,
+      "32": 0.2,
+      "20": 0.2,
+      "11": 0.2,
+      "29": 0.2
+    },
+    "validation_score": 0.2827865883637025,
+    "blend": "rank_mean"
+  },
+  "readmission_30d_24h": {
+    "task": "readmission_30d_24h",
+    "members": [
+      "05",
+      "24",
+      "25",
+      "04",
+      "32"
+    ],
+    "weights": {
+      "05": 0.2,
+      "24": 0.2,
+      "25": 0.2,
+      "04": 0.2,
+      "32": 0.2
+    },
+    "validation_score": 0.2554297760236614,
+    "blend": "rank_mean"
+  },
+  "los_hours_24h": {
+    "task": "los_hours_24h",
+    "members": [
+      "24",
+      "31",
+      "09",
+      "32",
+      "12"
+    ],
+    "weights": {
+      "24": 0.2,
+      "31": 0.2,
+      "09": 0.2,
+      "32": 0.2,
+      "12": 0.2
+    },
+    "validation_score": -53.53698395565432,
+    "blend": "raw_mean"
+  }
+}

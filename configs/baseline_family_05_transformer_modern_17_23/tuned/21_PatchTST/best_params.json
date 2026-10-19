@@ -1,0 +1,15 @@
+{
+  "patch_len": 8,
+  "stride": 4,
+  "d_model": 216,
+  "layers": 5,
+  "heads": 8,
+  "dropout": 0.15,
+  "lr": 0.0008,
+  "batch_size": 256,
+  "max_epochs": 50,
+  "patience": 9,
+  "weight_decay": 0.0005876779448247912,
+  "grad_clip": 1.0505530084190464,
+  "scheduler": "onecycle"
+}

@@ -1,0 +1,12 @@
+{
+  "ultimate_z2_oof_mean_binary_auprc": 0.3790754155720033,
+  "previous_z2_nested_oof_mean_binary_auprc": 0.3799403706715111,
+  "actual_z2_tuned_validation_mean_binary_auprc": 0.38938787172632583,
+  "oof_delta_vs_nested_previous_z2": -0.0008649550995077915,
+  "oof_delta_vs_actual_z2_tuned": -0.010312456154322525,
+  "minimum_gain_required": 0.0005,
+  "ultimate_z2_selected_as_primary": false,
+  "selection_metric": "grouped_5fold_OOF_mean_binary_AUPRC",
+  "test_used_for_selection": false,
+  "stop_after_z2_ultimate": true
+}

@@ -1,0 +1,14 @@
+{
+  "d_model": 256,
+  "n_heads": 8,
+  "transformer_layers": 4,
+  "lstm_hidden": 248,
+  "dropout": 0.15,
+  "lr": 0.0008,
+  "batch_size": 256,
+  "max_epochs": 50,
+  "patience": 5,
+  "weight_decay": 0.0006287247512674833,
+  "grad_clip": 1.4843797983464446,
+  "scheduler": "onecycle"
+}

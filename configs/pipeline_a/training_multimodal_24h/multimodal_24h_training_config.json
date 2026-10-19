@@ -1,0 +1,22 @@
+{
+  "seed": 2026,
+  "batch_size": 256,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "max_epochs": 30,
+  "early_stopping_patience": 5,
+  "lr_reduce_patience": 2,
+  "lr_reduce_factor": 0.5,
+  "gradient_clip_norm": 1.0,
+  "los_huber_beta": 1.0,
+  "model_parameters": 498404,
+  "train_stays": 52268,
+  "validation_stays": 7417,
+  "test_stays": 14887,
+  "mortality_pos_weight": 7.5447114598659475,
+  "readmission_pos_weight": 6.081425281127219,
+  "deterioration_pos_weight": 5.352303860523039,
+  "device": "cuda",
+  "torch_version": "2.10.0.dev20251031+rocm6.4",
+  "hip_version": "6.4.4"
+}

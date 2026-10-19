@@ -1,0 +1,17 @@
+{
+  "d_model": 360,
+  "d_state": 8,
+  "d_conv": 5,
+  "expand": 2,
+  "mamba_layers": 2,
+  "transformer_layers": 2,
+  "heads": 8,
+  "dropout": 0.12856250604134667,
+  "lr": 0.0019921347604978912,
+  "batch_size": 512,
+  "max_epochs": 50,
+  "patience": 6,
+  "weight_decay": 1.9302407405883202e-05,
+  "grad_clip": 1.7769735342122726,
+  "scheduler": "onecycle"
+}

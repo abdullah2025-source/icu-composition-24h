@@ -1,0 +1,35 @@
+{
+  "model": "V1 GRU structured temporal baseline",
+  "seed": 42,
+  "input_file": "/home/abdullah2025/fyp_project/outputs/pipeline_a/model_inputs_24h/structured_only_24h_inputs.npz",
+  "structured_shape": [
+    24,
+    44
+  ],
+  "demographics_shape": [
+    4
+  ],
+  "text_used": false,
+  "projection_dim": 128,
+  "hidden_dim": 256,
+  "gru_layers": 2,
+  "gru_dropout": 0.1,
+  "temporal_pooling": "learned scalar attention",
+  "demographic_hidden": 64,
+  "shared_dim": 128,
+  "batch_size": 256,
+  "eval_batch_size": 512,
+  "epochs_max": 30,
+  "early_stopping_patience": 5,
+  "learning_rate": 0.0002,
+  "weight_decay": 0.0001,
+  "gradient_clip": 1.0,
+  "classification_loss": "weighted BCEWithLogitsLoss",
+  "los_loss": "SmoothL1Loss",
+  "los_normalization": "train_only_mean_std",
+  "deterioration_unknown_labels": "masked",
+  "selection_metric": "mean validation task loss",
+  "test_used_for_model_selection": false,
+  "parameter_count": 756037,
+  "best_epoch": 5
+}

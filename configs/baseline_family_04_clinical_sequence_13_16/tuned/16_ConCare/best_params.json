@@ -1,0 +1,11 @@
+{
+  "hidden": 252,
+  "dropout": 0.2,
+  "lr": 0.001,
+  "batch_size": 1024,
+  "max_epochs": 50,
+  "patience": 5,
+  "weight_decay": 0.0005909320684151076,
+  "grad_clip": 0.9799868028636659,
+  "scheduler": "onecycle"
+}

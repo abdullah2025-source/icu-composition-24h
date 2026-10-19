@@ -1,0 +1,12 @@
+{
+  "d_model": 187,
+  "expansion": 2,
+  "dropout": 0.10595057985364129,
+  "lr": 0.0004237610040354054,
+  "batch_size": 512,
+  "max_epochs": 50,
+  "patience": 10,
+  "weight_decay": 8.756125420683998e-05,
+  "grad_clip": 1.6023902146167341,
+  "scheduler": "onecycle"
+}

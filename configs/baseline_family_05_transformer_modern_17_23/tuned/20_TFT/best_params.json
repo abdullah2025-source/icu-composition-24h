@@ -1,0 +1,12 @@
+{
+  "hidden": 168,
+  "heads": 4,
+  "dropout": 0.2,
+  "lr": 0.001,
+  "batch_size": 512,
+  "max_epochs": 50,
+  "patience": 10,
+  "weight_decay": 0.0009299347583904472,
+  "grad_clip": 0.5040472099246875,
+  "scheduler": "cosine"
+}

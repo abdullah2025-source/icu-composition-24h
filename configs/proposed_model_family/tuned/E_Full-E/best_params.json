@@ -1,0 +1,18 @@
+{
+  "model": "Full-E",
+  "architecture_locked": true,
+  "parameter_count": 2858060,
+  "best_trial": 11,
+  "best_validation_mean_auprc": 0.3500302414996051,
+  "params": {
+    "lr": 0.00011721249270454187,
+    "weight_decay": 0.000612115834254949,
+    "batch_size": 256,
+    "dropout": 0.11241837839512783,
+    "scheduler": "cosine",
+    "grad_clip": 0.9572749389375159,
+    "patience": 9
+  },
+  "fixed_reference_validation_mean_auprc": 0.3460976841093064,
+  "tuned_beats_fixed_on_validation": true
+}
